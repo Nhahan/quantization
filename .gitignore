@@ -48,3 +48,6 @@ Thumbs.db
 *.bak
 *.tmp
 *.out
+
+# model
+Bllossom_llama-3.2-Korean-Bllossom-3B-gguf-Q4_K_M/
