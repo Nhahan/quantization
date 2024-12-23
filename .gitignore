@@ -1,0 +1,50 @@
+# Ignore Python bytecode and cache files
+__pycache__/
+*.py[cod]
+*.so
+
+# Ignore Python build artifacts
+*.egg
+*.egg-info/
+dist/
+build/
+*.log
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore virtual environments
+venv/
+env/
+
+# Ignore PyCharm project files
+.idea/
+*.iml
+
+# Ignore large model and data files
+*.h5
+*.ckpt
+*.bin
+*.onnx
+*.pt
+*.tflite
+*.weights
+
+# Ignore Hugging Face model directory
+hf_models/
+model/
+
+# Ignore cache directories
+.cache/
+dataset_cache/
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore temporary and backup files
+*.swp
+*.swo
+*.bak
+*.tmp
+*.out
